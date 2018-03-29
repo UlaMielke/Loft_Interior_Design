@@ -110,3 +110,49 @@ textarea {
     border-bottom-left-radius: 5px;
     font-size: smaller;
 }
+/****** M E D I A  Q U E R I E S ******/
+@media (min-width: 600px) {
+    body,
+    html {
+        font-size: 1.2em;
+    }
+    section {
+        padding: 50px 50px;
+    }
+    .text {
+        font-size: 1.8em;
+        letter-spacing: 10px;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    body,
+    html {
+        font-size: 1.4em;
+        line-height: 1.8em;
+    }
+
+    section {
+        padding: 50px 80px;
+    }
+
+    .text {
+        font-size: 1.8em;
+        letter-spacing: 14px;
+    }
+    .back_img2 {
+        background-image: url("img/davide-cantelli-240809-unsplash.jpg");
+        min-height: 800px;
+    }
+
+    .back_img3 {
+        background-image: url("img/breather-7176-unsplash.jpg");
+        min-height: 800px;
+    }
+
+    .back_img4 {
+        background-image: url("img/chastity-cortijo-604621-unsplash.jpg");
+        min-height: 800px;
+    }
+}
