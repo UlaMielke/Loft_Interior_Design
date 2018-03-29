@@ -7,10 +7,10 @@ html {
     height: 100%;
     margin: 0;
     font-family: 'Lato', sans-serif;
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-weight: 300;
-    line-height: 1.8em;
-    color: #1F1D1D;
+    line-height: 1.5em;
+    color: #3e3e41;
 }
 
 .back_img1,
@@ -46,7 +46,7 @@ html {
 
 section {
     text-align: center;
-    padding: 50px 80px;
+    padding: 50px 35px;
 }
 
 .section3 {
@@ -63,10 +63,12 @@ section {
     font-size: 1.6em;
     text-transform: uppercase;
     letter-spacing: 8px;
+    padding: 10px;
 }
 
 .border {
-    border: 1px solid #1F1D1D;
+    border-right: 1px solid #1F1D1D;
+    border-left: 1px solid #1F1D1D;
     padding: 1px;
 }
 
@@ -74,7 +76,12 @@ input {
     display: block;
     margin: 1em auto;
     width: 70vw;
-    border: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #1F1D1D;
+    border-bottom-left-radius: 5px;
+    font-size: smaller;
 }
 
 input:last-child {
@@ -85,6 +92,7 @@ input:last-child {
     margin: 1em auto;
     padding: 1em;
     border: 1px solid #302a2a;
+    border-radius: 0;
 }
 
 input:last-child:hover {
@@ -95,9 +103,10 @@ textarea {
     display: block;
     margin: 1em auto;
     width: 70vw;
-    border: none;
-}
-
-iframe{
-    width: 100vw;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #1F1D1D;
+    border-bottom-left-radius: 5px;
+    font-size: smaller;
 }
